@@ -1,0 +1,292 @@
+Python
+------
+
+1. python is open source technology
+
+2. writing code in python is very simple
+
+3. has readymade functions to accomplish any task
+
+
+Desktop app 	-	TK (tool kit)
+
+Web app		-	Django (MVC), Flask, Pyramid
+
+web scrapping	-	Beautiful soup, request
+
+Testing		-	unit test, selenium, robot framework
+
+Automation	-	paramiko
+
+Data Science
+		- 	Numpy and pandas
+	
+		-	Data Analytics		-	matplotlib, seaborn
+
+		-	Machine Learning	-	tensorflow, chatgpt
+
+		-	Artificial intelligence	-	
+
+
+Python
+------
+
+versions
+--------
+2.x and 3.x
+
+syntax changes
+
+2.x
+
+print "hello"
+
+
+3.x
+
+print("hello")
+
+
+www.python.org	(python 3.12.x)
+
+
+Flavours of python
+------------------
+
+1. Cpython	-	currently using
+
+2. Jython	-	python code - java code
+
+3. Iron python	-	implement dot net libraries
+
+
+Editors
+-------
+pycharm - community edition (open source) 
+
+Visual Studio Code - CE
+
+Eclipse	- addons	
+
+sublime text
+
+notepad++
+
+Jupyter notebook (anaconda)
+
+IDLE	-	Integrated Development Environment
+
+
+Python
+------
+1. SDK - lib necessary to execute python scripts
+
+2. shell - iterpreter 
+
+3. IDLE 
+
+
+type function	-	RTTI - runtime type identification
+
+operator overloaded
+-------------------
+1. +
+2. *
+
+
+Primitive Datatypes
+-------------------
+1. Numbers
+   a. integers	-	19, 35, 40
+   b. float	-	35.89
+   c. complex	-	10 + 2j
+
+2. Strings	-	"hello world"
+3. Boolean	-	True(1), False(0)
+
+	
+long integers(2.x)
+------------------
+23842738949231812852340230283283947182412382398492304L
+
+
+Coding Rules
+------------
+
+#! - she bang - used to specify the path of python executable
+
+
+Comments in python
+-------------------
+python supports only single line comment with a #
+
+# this is a comment
+
+print(a + b)  	# this is a comment
+
+# this is a comment
+
+
+Strings in python
+-----------------
+single line string 	-	' ' or " "
+
+"This is a string \n"
+
+'This is a string \n'
+
+
+Multiple line string
+--------------------
+"""
+first line
+second line
+third line
+"""
+
+'''
+first line
+second line
+third line
+'''
+
+functions connect()	- connects to a database
+
+
+def connect():
+   """
+	help on the function	
+   """
+
+the above help that we write in the function is called doc string
+
+
+use """ """ or '''  ''' for multiple line comments
+
+
+loops, control structures and functions we depend on {} paranthesis
+
+for (condition) 
+{
+   if ()
+   {
+    
+   } else {
+
+   }
+
+}
+
+
+function fun() 
+{
+
+
+}
+
+in Python
+---------
+we depend on indentation (tab key)
+
+
+def fun(j):
+    for i in range(1, j):
+	if (i % 2 == 0)
+	    print(i)
+	else:
+	    print(0)
+
+	print("for loop code")
+
+    print("function code")
+
+print("main module code")
+
+
+loops
+-----
+1. for loop 
+2. 	while loop
+
+
+print function
+---------------
+print(data, sep=, end="\n")
+
+
+Strings in python
+-----------------
+strings are stored like arrays (lists)
+
+strings are immutable
+
+
+
+Lists
+-----
+lists are a collection of hetrogenous data
+
+lists are mutable
+
+function
+-------
+copy
+sort or sorted
+
+
+tuple
+-----
+tuples are immutable lists - ()
+
+
+dictionary
+----------
+keys and values  - { }
+
+caps = {'kar': 'blr', 'apn': 'amaravathi', 'tnd': 'che'}
+
+keys - kar, apn, tnd
+
+values - blr, amaravathi, che
+
+
+--------------------------------------------------------------------------------------------------------------
+
+Lists 
+-----
+1. lists are mutable
+
+2. they are ordered collection
+
+3. they are a collection of hetrogenous data
+
+4. they are subcriptable
+
+5. they are enclosed in [ ]
+
+
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+Dictionary
+----------
+1. associative array
+
+2. stores data in the form of key and value
+
+3. keys are always unique
+
+4. dictionaries are enclosed in  {k1:v1, k2:v2, k3:v3.....}
+
+
+  0    1    2    3    4    5
+['a', 'b', 'c', 'd', 'e', 'f']
+
+
+{0:'a', 1:'b',  2:'c', 3:'d', 4:'e', 5:'f'}
+
+ 
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
