@@ -1,0 +1,68 @@
+Functions
+---------
+
+1. create a function
+
+2. call a function 
+
+3. pass arguments
+
+4. function return value
+
+5. recursive call
+
+6. variable length arguments
+
+7. function doc string
+
+9. lambdas
+
+10. comprehension
+
+11. scope of a variable
+
+12. decorator
+
+FUNCTION
+--------
+a snippet of code that can be reused 
+
+
+what are lambdas
+-----------------
+its anonymous functions with a single expression
+
+result of expression = lambda arg1, arg2, arg3....:expression
+
+
+Assignement
+-----------
+['apr', 'aug', 'dec', 'sep', 'feb', 'nov', 'jan', 'mar', 'oct', 'jul', 'may', 'jun']
+use map and sort this months 
+
+Compreshensions
+---------------
+iterating through a collection using lambda syntax is called compreshension
+
+1. List comprehension
+2. Dictionary Compreshension
+
+crackers
+--------
+80% discount
+
+25840
+
+80% = 25840 - (25840 * 0.8)
+
+25840 * 0.2 
+
+
+
+
+
+
+
+
+
+
