@@ -1,0 +1,20 @@
+Functions
+---------
+
+scope
+-----
+1. global
+2. local
+3. non local
+
+Closure
+-------
+def fun()
+   x = 10
+
+if we are able to access the variable(value) out of the scope of fun then we call it as closure
+
+decorator
+
+
+
